@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            #frmDangky { padding-left: 40; width: 600px; margin: auto; border: 2px solid darkblue; font-size: 22px;  border-radius: 10px;margin-top: 150px;} 
+            #frmDangky label { width: 150px; display: inline-block; color: darkorange; } 
+            #frmDangky .txt { width: 400px; border: 1px solid darkorange; padding: 10px; border-radius: 7px;}
+            #frmDangky button { width: 150px; height: 40px; font-size: 1em; } 
+            #btnform{
+                background-color: aqua;
+                border-radius: 7px;
+            }
+            h1{
+                background-color: aqua;
+                margin-left: -40;
+                margin-top: -22;
+                
+            }
+            form{
+                background-color: rgba(128, 128, 128, 0.89);
+            }
+            
+            
+            </style>
+            
+    </head>
+    <body>
+        <form action="xuly.php" id="frmDangky" method="post"> <p>
+            <h1 align="center">Đăng ký thành viên</h1>
+            <label>Tên đăng nhập</label>
+            <input type="text" class="txt" minlength="4" maxlength="20" placeholder="Nhập từ 4 đến 20 ký tự" name="un"> </p>
+            <p>
+            <label> Mật khẩu</label>
+            <input type="text" class="txt" placeholder="Nhập từ 8 đến 28 ký tự" name="P" minlength="8" maxlength="20"> </p> <!- Các control tiếp theo-->
+            
+                <label>Phái</label> <input type="radio" value="0" name="phai" checked>Nữ
+                <input type="radio" value="1" name="phai">Nam 
+            </p>
+            <p>
+                <label>Hình ảnh</label>
+                <input type="file" class="txt" placeholder="Chọn hình ảnh của bạn" name="ha">
+            </p>
+            <p>
+            <label> Quốc tịch</label> <select name="qt" class="txt">
+                <option value="0">Chọn quốc tịch</option> <option value="1">Việt Nam</option> <option value="2"> USA </option>
+                <option value="4"> Khác </option> </select> </p>
+            
+            <p>
+                <label>Ghi chú</label>
+                <textarea class="txt" ></textarea>
+            </p>
+            <p> <label> </label>
+                <button id="btnform" type="submit"> Đăng ký </button>
+                <button id="btnform" type="reset"> Làm lại </button> </p> 
+                <p>
+        </form>
+            
+            
+                
+    </body>
+</html>
+    

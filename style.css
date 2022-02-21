@@ -1,0 +1,168 @@
+
+<style>
+    * { padding:0 ; margin: 0;}
+    .site { width: 1830px;margin: auto; font-size: 24px;}
+    
+    article{
+      width: 65%;
+      float: left;
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
+    aside{
+      width: 34%; float:right;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    }
+    
+    
+    nav {  height: 44px; margin-top: 20px;}
+    
+    .search-container{
+      position: relative;
+      top:-10px;
+      left: 430;
+      margin-left: 700px;
+      margin-right: 640;
+      
+      
+    }
+    .account{
+      position: relative;
+      top: 27px;
+      left: 700px;
+      margin-left: 400px;
+      
+    }
+    .account label button{
+      background-color: rgba(224, 20, 20, 0.904);
+      padding: 7px;
+      
+    }
+    .account label button a{
+      text-decoration: none;
+      color: aqua;
+    }
+    nav input[type=text]{
+      border: 1px solid #ccc;  
+    }
+    .wrapper{
+      min-height: calc(100% - 390px);
+    }
+    .about{
+      min-height: calc(100% - 700px);
+    }
+    footer{ background: rgba(128, 144, 128, 0.952);height: 150px; clear: both; padding-bottom: 90px; padding-top: 15px; bottom: 0; }
+    ul#menu1 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(127, 138, 137);
+    }
+    li {
+      float: left;
+    }
+    li a, .dropdownnews{
+      display: inline-block;
+      color: whitesmoke;
+      text-align: center;
+      padding: 25px;
+      text-decoration: none;
+      
+    }
+    li a:hover, .dropdown:hover, .dropdownnews{
+      background-color: rgb(35, 132, 196);
+      padding-bottom: 15px;
+      
+    }
+    li.dropdown{
+      display: inline-block;
+    }
+    .dropdown-news{
+      display: none;
+      position: absolute;
+      background-color: cyan;
+      z-index: 1;
+      min-width: 160px;
+      box-shadow: cornsilk;
+    }
+    .dropdown-news a{
+      color: black;
+      padding: 5px 10px;
+      text-decoration: none; display: block;
+      text-align: left;
+    }
+    .dropdown-news a:hover{background-color: burlywood;}
+    .dropdown:hover .dropdown-news{display: block;}
+    .content a{
+      text-decoration: none;
+      color: black;
+    }
+    body{
+      font-family: Arial;
+    }
+    
+    
+    div.title a{
+      text-decoration: none;
+    }
+    
+   
+    div.gallery {
+      margin: 5px;
+      background-color: rgba(216, 223, 228, 0.863);
+     border: 1px solid #ccc;
+      float: left;
+      width: 175px;
+      height: 800;
+      padding: 10px;
+      padding-top: 30px;
+     
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: 150;
+      
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    footer p{
+      margin-left: 50px;
+    }
+    
+    div.icon{
+      margin-left: 10px;
+      display: block;
+      
+    }
+    div.in4 p{
+       font-size: large;
+       color: rgb(15, 5, 24);
+       background-color: brown;
+    }
+    div.img-in4 img{
+      width: 420px;
+      height: 400px;
+    }
+    div.l-foot{
+      margin-left: 60px;
+    }
+    body{
+      background-image:url(/Images/pexels-jessica-lewis-creative-583848.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    
+</style>
+

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            #frmDangky { padding-left: 40; width: 600px; margin: auto; 
+                border: 2px solid darkblue; font-size: 22px;  
+                border-radius: 10px;
+                margin-top: 150px;
+            } 
+            #frmDangky label { width: 150px; display: inline-block; color: darkorange; } 
+            #frmDangky .txt { width: 400px; border: 1px solid darkorange; padding: 10px; border-radius: 7px;}
+            #frmDangky button { width: 300px; height: 30px; font-size: 1em; } 
+            #dnform{
+                background-color: aqua;
+                border-radius: 7px;  
+            }
+            #dnform a{
+                text-decoration: none;
+                color: black;
+            }
+            
+            h1{
+                background-color: aqua;
+                margin-left: -40;
+                margin-top: -22;
+                
+            }
+            form{
+                background-color: rgba(128, 128, 128, 0.89);
+                
+            }
+            
+            
+            </style>
+            
+    </head>
+    <body>
+        <form action="xuly.php" id="frmDangky" method="post"> <p>
+            <h1 align="center">Thành viên đăng nhập</h1>
+            <label>Tên đăng nhập</label>
+            <input type="text" class="txt" minlength="4" maxlength="20" placeholder="Nhập từ 4 đến 20 ký tự" name="un"> </p>
+            <p>
+            <label> Mật khẩu</label>
+            <input type="text" class="txt" placeholder="Nhập từ 8 đến 28 ký tự" name="P" minlength="8" maxlength="20"> </p> <!- Các control tiếp theo-->
+            <p>
+                <label></label>
+                <input type="checkbox">Ghi nhớ
+            </p>
+              
+            <p> <label> </label>
+                <button id="dnform" type="submit"> <a href="#">Đăng nhập</a> </button>
+                <p></p><label></label>
+                <button id="dnform" type="submit"> <a href="#">Quên mật khẩu</a> </button>
+                 </p> 
+                
+        </form>
+            
+            
+                
+    </body>
+</html>
+    
